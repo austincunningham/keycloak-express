@@ -1,17 +1,17 @@
 
-#Keycloak-Express
+# Keycloak-Express
 
 ### Installation
 
 clone the repo and run **npm install**
 
-###**Dependancies**
+### Dependancies 
 - Keycloak
 - Node
 - express
 - npm 
 
-###**Requirements** 
+### Requirements 
 Need to have a Keycloak server up and running
 
 Download Keycloak at 
