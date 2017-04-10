@@ -1,0 +1,13 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "author": "austincunningham",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.2",
+    "fs": "0.0.1-security",
+    "keycloak-connect": "^3.0.0"
+  }
+}
