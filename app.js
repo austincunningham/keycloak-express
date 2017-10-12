@@ -48,6 +48,6 @@ app.get('/',function(req,res){
 
 app.use( keycloak.middleware( { logout: '/'} ));
 
-app.listen(8000, function () {
-  console.log('Listening at http://localhost:8000');
+app.listen(8080, function () {
+  console.log('Listening at http://localhost:8080');
 });
