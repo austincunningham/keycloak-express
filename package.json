@@ -9,5 +9,8 @@
     "express-session": "^1.15.2",
     "fs": "0.0.1-security",
     "keycloak-connect": "^3.0.0"
+  },
+  "scripts": {
+    "start": "node app.js"
   }
 }
