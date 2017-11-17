@@ -1,7 +1,7 @@
 # Social Login with Keycloak
 
 First this is very well documented at 
-https://keycloak.gitbooks.io/documentation/content/server_admin/topics/identity-broker/social-login.html
+http://www.keycloak.org/docs/latest/server_admin/index.html#social-identity-providers
 
 But here are a few tips
 
