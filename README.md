@@ -8,7 +8,7 @@ The /logout route kills the keycloak session.
 
 ## Demo Video
 
-[![ScreenShot](https://s11.postimg.org/5524le62b/keycloak-express.png)](https://youtu.be/VAzI7f3pxec)
+[![ScreenShot](./keycloak-setup.jpg)](https://youtu.be/VAzI7f3pxec)
 
 ### Installation
 
