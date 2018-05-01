@@ -4,5 +4,5 @@
   "ssl-required": "external",
   "resource": "keycloak-express",
   "public-client": true,
-  "use-resource-role-mappings": true
+  "confidential-port": 0
 }
