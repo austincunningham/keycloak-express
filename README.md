@@ -4,7 +4,8 @@
 ## About
 This is a Node js Express app that uses Keycloak to protect the /test route, 
 Login and user setup are controlled by keycloak. The default route / is unprotected. 
-The /logout route kills the keycloak session. 
+The /logout route kills the keycloak session. See the following [blog](https://codeburst.io/keycloak-and-express-7c71693d507a)
+for steps to setup the Keycloak server
 
 ## Demo Video
 
