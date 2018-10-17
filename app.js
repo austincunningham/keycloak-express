@@ -8,7 +8,6 @@ const Keycloak = require('keycloak-connect');
 const express = require('express');
 const session = require('express-session');
 const expressHbs = require('express-handlebars');
-const fs = require('fs');
 
 const app = express();
 
@@ -20,7 +19,8 @@ app.engine('hbs', expressHbs({extname:'hbs',
 app.set('view engine', 'hbs');
 
 
-
+var memoryStore = new session.MemoryStore();
+var keycloak = new Keycloak({ store: memoryStore });
 
 //session
 app.use(session({
@@ -29,10 +29,6 @@ app.use(session({
   saveUninitialized: true,
   store: memoryStore
 }));
-
-var memoryStore = new session.MemoryStore();
-var keycloak = new Keycloak({ store: memoryStore });
-
 
 app.use(keycloak.middleware());
 
