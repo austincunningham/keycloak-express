@@ -5,7 +5,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.15.2",
-    "express-handlebars": "^3.0.0",
+    "express-handlebars": "^5.3.1",
     "express-session": "^1.15.2",
     "fs": "0.0.1-security",
     "keycloak-connect": "^9.0.0"
